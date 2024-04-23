@@ -31,3 +31,5 @@ _site/*
 .jekyll-metadata
 .jekyll-metadata/*
 Gemfile.lock
+dist/
+node_modules

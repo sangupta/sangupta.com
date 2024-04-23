@@ -15,15 +15,10 @@ challenge can be found in my GitHub repository at <a href="https://github.com/sa
 <br><br>
 <h2>Image Unshred</h2>
 
-Instagram posted a <a href="http://instagram-engineering.tumblr.com/post/12651721845/instagram-engineering-challenge-the-unshredder">challenge
-on image unshredding</a> in 2011 around stiching back pieces of an image that has been shredded. My solution for the same can be found in
-my GitHub repository at <a href="https://github.com/sangupta/image-unshred">Image Unshred</a>.
 
 <br><br>
 <h2>Luhny Bin</h2>
 
-Square posted a <a href="http://corner.squareup.com/2011/11/luhny-bin.html">coding challenge</a> for Luhn check in 2011. 
-My solution for the same can be found in my GitHub repository at <a href="https://github.com/sangupta/luhnybin">Luhny Bin</a>.
 
 <br><br>
 <h2>Project Euler</h2>

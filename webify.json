@@ -1,0 +1,87 @@
+{
+    "title": "sangupta",
+    "baseUrl": "https://sangupta.com",
+    "name": "Sandeep Gupta",
+    "icon": "/assets/images/letter-s.png",
+    "author": {
+        "name": "Sandeep Gupta",
+        "email": "sandy.pec@gmail.com",
+        "url": "https://sangupta.com"
+    },
+    "build": {
+        "include": [
+            "*"
+        ],
+        "exclude": [
+            "README.md",
+            "shire.json"
+        ]
+    },
+    "sections": [
+        {
+            "id": "/keep-walking",
+            "title": "Keep Walking",
+            "description": "from the brain",
+            "archive": true,
+            "feed": true,
+            "type": "blog",
+            "icon": ""
+        },
+        {
+            "id": "/poet-inside",
+            "title": "Poet Inside",
+            "description": "from the heart",
+            "archive": true,
+            "feed": true,
+            "type": "blog"
+        },
+        {
+            "id": "/coding-challenges",
+            "title": "Coding Challenges",
+            "description": "from the keyboard",
+            "archive": false,
+            "feed": false,
+            "type": "blog"
+        },
+        {
+            "id": "/open-source",
+            "title": "Open Source",
+            "description": "for the community",
+            "archive": false,
+            "feed": false,
+            "type": "link"
+        }
+    ],
+    "socials": [
+        {
+            "type": "twitter",
+            "link": "https://twitter.com/sangupta"
+        },
+        {
+            "type": "github",
+            "link": "https://github.com/sangupta"
+        },
+        {
+            "type": "linkedin",
+            "link": "http://in.linkedin.com/in/sandypec"
+        },
+        {
+            "type": "ycombinator",
+            "link": "https://news.ycombinator.com/user?id=sangupta"
+        },
+        {
+            "type": "instagram",
+            "link": "https://instagram.com/sandypec"
+        }
+    ],
+    "links": [
+        {
+            "label": "Résumé",
+            "path": "/resume"
+        },
+        {
+            "label": "About",
+            "path": "/about"
+        }
+    ]
+}
