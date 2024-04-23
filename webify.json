@@ -14,7 +14,13 @@
         ],
         "exclude": [
             "README.md",
-            "shire.json"
+            "shire.json",
+            ".git/*",
+            ".git",
+            ".gitignore",
+            "dist",
+            "dist/*",
+            "*/.DS_Store"
         ]
     },
     "sections": [
