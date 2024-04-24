@@ -14,11 +14,12 @@ function readFiles(root) {
             // }
             console.log(file);
 
-            const file2 = path.resolve(root, file);
-            console.log('File2: ' + file2.path + '/' + file2.name);
+            const filePath = path.resolve(root, file);
+            const stat = fs.statSync(filePath);
+            if(stat) {
+                console.log('  Stat: ' + stat.isFile + ' of size ' + stat.size + ' bytes');
 
-            const file3 = path.resolve(file);
-            console.log('File3: ' + file3.path + '/' + file3.name);
+            }
         });
     }
 }
