@@ -4,7 +4,7 @@ const path = require('path');
 const root = path.resolve('.');
 
 function readFiles(root) {
-    let files = fs.readdirSync(root, { withFileTypes: true, recursive: true });
+    let files = fs.readdirSync(root, { withFileTypes: false, recursive: true });
     console.log('Found total ' + (files || []).length + ' files');
 
     if (files.length > 0) {
