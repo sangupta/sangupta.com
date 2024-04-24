@@ -9,9 +9,13 @@ function readFiles(root) {
 
     if (files.length > 0) {
         files.forEach(file => {
-            if (file.isFile()) {
-                console.log('File: ' + file.path + '/' + file.name);
-            }
+            // if (file.isFile()) {
+            //     console.log('File: ' + file.path + '/' + file.name);
+            // }
+            console.log(file);
+
+            const file2 = path.resolve(root, file);
+            console.log('File: ' + file2.path + '/' + file2.name);
         });
     }
 }
