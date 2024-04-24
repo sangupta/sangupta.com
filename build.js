@@ -15,15 +15,13 @@ function readFiles(root) {
             console.log(file);
 
             const file2 = path.resolve(root, file);
-            console.log('File: ' + file2.path + '/' + file2.name);
+            console.log('File2: ' + file2.path + '/' + file2.name);
+
+            const file3 = path.resolve(file);
+            console.log('File3: ' + file3.path + '/' + file3.name);
         });
     }
 }
 
 console.log('check current folder for files: ' + root);
 readFiles(root);
-
-const parent = path.resolve('..');
-console.log('check current folder for files: ' + parent);
-readFiles(parent);
-
