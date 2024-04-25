@@ -2,7 +2,12 @@
     "title": "sangupta",
     "baseUrl": "https://sangupta.pages.dev",
     "name": "Sandeep Gupta",
-    "icon": "/assets/images/letter-s.png",
+    "icon": "/assets/images/letter-s.jpg",
+    "iconAlt": "S",
+    "copyright": {
+        "start": 2006,
+        "message": "Made with <span class='heart'>&hearts;</span> on a cloudy super moon night."
+    },
     "author": {
         "name": "Sandeep Gupta",
         "email": "sandy.pec@gmail.com",
@@ -25,7 +30,7 @@
     },
     "sections": [
         {
-            "id": "/keep-walking",
+            "id": "keep-walking",
             "title": "Keep Walking",
             "description": "from the brain",
             "archive": true,
@@ -34,7 +39,7 @@
             "icon": ""
         },
         {
-            "id": "/poet-inside",
+            "id": "poet-inside",
             "title": "Poet Inside",
             "description": "from the heart",
             "archive": true,
@@ -42,7 +47,7 @@
             "type": "blog"
         },
         {
-            "id": "/coding-challenges",
+            "id": "coding-challenges",
             "title": "Coding Challenges",
             "description": "from the keyboard",
             "archive": false,
@@ -50,12 +55,15 @@
             "type": "blog"
         },
         {
-            "id": "/open-source",
+            "id": "open-source",
             "title": "Open Source",
             "description": "for the community",
             "archive": false,
             "feed": false,
             "type": "link"
+        },
+        {
+            "id": "projects"
         }
     ],
     "socials": [
