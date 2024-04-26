@@ -1,4 +1,6 @@
 # !/bin/bash
 
 go install github.com/jondot/goweight@latest
-$HOME/go/bin/goweight --help
+echo $GOROOT
+echo $GOPATH
+$GOPATH/go/bin/goweight --help
